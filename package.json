@@ -1,7 +1,7 @@
 
 {
-  "name": "react-native-netease-im",
-  "version": "2.1.0",
+  "name": "react-native-yunxin",
+  "version": "1.0.0",
   "description": "网易云信ReactNative插件",
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,10 @@
   ],
   "repository" :
   { "type" : "git",
-    "url" : "https://github.com/reactnativecomponent/react-native-netease-im.git"
+    "url" : "https://github.com/yuezonglun/react-native-netease-im.git"
   },
-  "author": "",
-  "license": "",
+  "author": "Yue Zonglun",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.47.0"
 
