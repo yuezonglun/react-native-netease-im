@@ -5,7 +5,7 @@
  * @Last Modified time: 2019-03-06 16:51:34
  */
 import { NativeModules,Platform } from 'react-native'
-const { RNNeteaseIm } = NativeModules
+const { RNNeteaseIm, RNNeteaseImSubscribeManager } = NativeModules
 class Friend {
     /**
      * 进入好友
@@ -123,6 +123,14 @@ class Friend {
      */
     removeFromBlackList(contactId){
         return RNNeteaseIm.removeFromBlackList(contactId)
+    }
+    /**
+     * 订阅用户在线状态
+     * @param {Array<number>} userIds 
+     * @returns {Promise}
+     */
+    subscribeOnlineState(userIds) {
+        return RNNeteaseImSubscribeManager.subscribeOnlineState(userIds)
     }
 }
 export default new Friend()
