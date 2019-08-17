@@ -38,6 +38,7 @@
 		4EC4FCCC1ECA9BBC00F3DA5E /* NIMMessageMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4FCCB1ECA9BBC00F3DA5E /* NIMMessageMaker.m */; };
 		4EC4FCCF1ECA9BDB00F3DA5E /* NSString+NIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4FCCE1ECA9BDB00F3DA5E /* NSString+NIMKit.m */; };
 		4EC4FCD21ECA9C6C00F3DA5E /* NIMKitLocationPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4FCD11ECA9C6C00F3DA5E /* NIMKitLocationPoint.m */; };
+		54678B22230861A700F932C7 /* RNNeteaseImSubscribeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54678B21230861A700F932C7 /* RNNeteaseImSubscribeManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -119,6 +120,8 @@
 		4EC4FCCE1ECA9BDB00F3DA5E /* NSString+NIMKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NIMKit.m"; sourceTree = "<group>"; };
 		4EC4FCD01ECA9C6C00F3DA5E /* NIMKitLocationPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMKitLocationPoint.h; sourceTree = "<group>"; };
 		4EC4FCD11ECA9C6C00F3DA5E /* NIMKitLocationPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMKitLocationPoint.m; sourceTree = "<group>"; };
+		54678B20230861A700F932C7 /* RNNeteaseImSubscribeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNeteaseImSubscribeManager.h; sourceTree = "<group>"; };
+		54678B21230861A700F932C7 /* RNNeteaseImSubscribeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNeteaseImSubscribeManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 		4E5B47431EC1788F00D74E72 /* RNNeteaseIm */ = {
 			isa = PBXGroup;
 			children = (
+				54678B20230861A700F932C7 /* RNNeteaseImSubscribeManager.h */,
+				54678B21230861A700F932C7 /* RNNeteaseImSubscribeManager.m */,
 				4E3DD02A1EF384A900012CB7 /* DWCustomAttachment.h */,
 				4E3DD02B1EF384A900012CB7 /* DWCustomAttachment.m */,
 				4E3DD02C1EF384A900012CB7 /* DWCustomAttachmentDecoder.h */,
@@ -284,6 +289,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 4E5B47381EC1788F00D74E72;
@@ -317,6 +323,7 @@
 				4E5B47781EC1793600D74E72 /* RNNeteaseIm.m in Sources */,
 				4E5B47C61EC17A0D00D74E72 /* NIMModel.m in Sources */,
 				4EC4FCCF1ECA9BDB00F3DA5E /* NSString+NIMKit.m in Sources */,
+				54678B22230861A700F932C7 /* RNNeteaseImSubscribeManager.m in Sources */,
 				4E5B47CF1EC17A0D00D74E72 /* NTESPinyinConverter.m in Sources */,
 				4E354E871ECBE72700CD6587 /* NIMObject.m in Sources */,
 				4E9C78B91ECE88ED00037A6C /* NTESSDKConfigDelegate.m in Sources */,
