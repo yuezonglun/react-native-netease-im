@@ -126,7 +126,7 @@ class Friend {
     }
     /**
      * 订阅用户在线状态
-     * @param {Array<number>} userIds 
+     * @param {Array<number>} userIds
      * @returns {Promise}
      */
     subscribeOnlineState(userIds) {
